@@ -1,9 +1,11 @@
 spring:
   application:
     name: order-service
-    
+  cloud:
+    config:
+      override-none: true 
 server:
-  port: 8201  
+  port: 8202 
   
 eureka:
   client:
